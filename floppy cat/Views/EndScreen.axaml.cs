@@ -15,17 +15,40 @@ public partial class EndScreen : Window
     protected override void OnLoaded(RoutedEventArgs e)
     {
         base.OnLoaded(e);
-        okButton.Click += delegate
-        {
-            StaticData.mainMenu.Show();
-            Close(null);
-        };
+        
     }
 
-    public EndScreen(int res)
+    public EndScreen(int res, ObstaclesSpawner spawner)
     {
         InitializeComponent();
 
         resText.Text = res.ToString();
+
+        okButton.Click += delegate
+        {
+            StaticData.mainMenu.Show();
+            spawner.DeleteAll();
+            StaticData.floppy.Delete();
+            StaticData.floppy = null;
+            spawner = null;
+            Close();
+        };
+    }
+
+    public EndScreen(int res, ObstaclesSpawner spawner, Floppy flop)
+    {
+        InitializeComponent();
+
+        resText.Text = res.ToString();
+
+        okButton.Click += delegate
+        {
+            StaticData.mainMenu.Show();
+            spawner.DeleteAll();
+            StaticData.floppy.Delete();
+            StaticData.floppy = null;
+            spawner = null;
+            Close();
+        };
     }
 }

@@ -134,3 +134,135 @@
 /home/KHPK.RU/student/RiderProjects/floppy cat/floppy cat/obj/Debug/net7.0/floppy cat.csproj.CopyComplete
 /home/KHPK.RU/student/RiderProjects/floppy cat/floppy cat/obj/Debug/net7.0/floppy cat.genruntimeconfig.cache
 /home/KHPK.RU/student/RiderProjects/floppy cat/floppy cat/obj/Debug/net7.0/ref/floppy cat.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\floppy cat.exe
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\floppy cat.deps.json
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\floppy cat.runtimeconfig.json
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\floppy cat.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\floppy cat.pdb
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Base.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Controls.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.DesignerSupport.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Dialogs.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Markup.Xaml.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Markup.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Metal.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.MicroCom.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.OpenGL.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Controls.ColorPicker.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Controls.DataGrid.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Desktop.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Diagnostics.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Fonts.Inter.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.FreeDesktop.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Native.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.ReactiveUI.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Remote.Protocol.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Skia.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Themes.Fluent.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Themes.Simple.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.Win32.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Avalonia.X11.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\DynamicData.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\HarfBuzzSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\MicroCom.Runtime.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Microsoft.CodeAnalysis.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Microsoft.CodeAnalysis.Scripting.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ReactiveUI.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\SkiaSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Splat.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\System.IO.Pipelines.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\System.Reactive.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\Tmds.DBus.Protocol.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-arm64\native\av_libglesv2.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-x64\native\av_libglesv2.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-x86\native\av_libglesv2.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\osx\native\libAvaloniaNative.dylib
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-arm\native\libSkiaSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-arm64\native\libSkiaSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\linux-x64\native\libSkiaSharp.so
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\GItHub\floppy_cat\floppy cat\bin\Debug\net7.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.csproj.AssemblyReference.cache
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\Avalonia\Resources.Inputs.cache
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\Avalonia\resources
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.GeneratedMSBuildEditorConfig.editorconfig
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.AssemblyInfoInputs.cache
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.AssemblyInfo.cs
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.csproj.CoreCompileInputs.cache
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.sourcelink.json
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\Avalonia\references
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\Avalonia\original.dll
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\Avalonia\original.pdb
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\Avalonia\original.ref.dll
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\refint\floppy cat.dll
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.dll
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.pdb
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.csproj.CopyComplete
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\floppy cat.genruntimeconfig.cache
+C:\GItHub\floppy_cat\floppy cat\obj\Debug\net7.0\ref\floppy cat.dll

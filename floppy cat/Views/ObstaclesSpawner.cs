@@ -1,5 +1,7 @@
 
 using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using Avalonia.Controls;
 using Avalonia.Controls.Shapes;
 using Avalonia.Media;
@@ -8,14 +10,19 @@ namespace floppy_cat.Views;
 
 public class ObstaclesSpawner
 {
-    private float spawnTimer = 1000f;
+    public float spawnTime = 100f;
+    public float spawnTimer = 0f;
     
-    private Canvas canvas;
+    public Canvas canvas;
+
+    public float rightSpawnOffset = -45f;
+
+    public List<Obstacle> obstacles = new List<Obstacle>();
+    public List<Counter> counters = new List<Counter>();
     public void Init(Canvas canvas)
     {
         this.canvas = canvas;
         UpdateHandler.updateEvent += Update;
-        Spawn();
     }
     public void Spawn()
     {
@@ -27,32 +34,36 @@ public class ObstaclesSpawner
         rt.Height = 120 + rh;
         rt.Width = 30;
         Canvas.SetTop(rt, 0);
-        Canvas.SetRight(rt, 20);
+        Canvas.SetRight(rt, rightSpawnOffset);
         Obstacle obt = new Obstacle();
-        obt.Init(rt);
+        obt.Init(rt, this);
         
         Rectangle rb = new Rectangle();
         rb.Fill = new SolidColorBrush(Colors.Red);
         rb.Height = 120 - rh;
         rb.Width = 30;
         Canvas.SetBottom(rb, 0);
-        Canvas.SetRight(rb, 20);
+        Canvas.SetRight(rb, rightSpawnOffset);
         Obstacle obb = new Obstacle();
-        obb.Init(rb);
+        obb.Init(rb, this);
         
         Rectangle c = new Rectangle();
-        c.Fill = new SolidColorBrush(Colors.Transparent);
-        c.Height = 400;
+        c.Height = canvas.Bounds.Height;
         c.Width = 15;
         Canvas.SetBottom(c, 0);
-        Canvas.SetRight(c, 10);
+        Canvas.SetRight(c, rightSpawnOffset);
         Counter cc = new Counter();
-        cc.Init(c);
+        cc.Init(c, this);
         
         canvas.Children.Add(rt);
         canvas.Children.Add(rb);
         canvas.Children.Add(c);
-        spawnTimer = 100f;
+
+        obstacles.Add(obt);
+        obstacles.Add(obb);
+        counters.Add(cc);
+
+        spawnTimer = spawnTime;
     }
 
     private void Update()
@@ -62,5 +73,23 @@ public class ObstaclesSpawner
         {
             Spawn();
         }
+    }
+
+    public void DeleteAll()
+    {
+        for (int i = 0; i < obstacles.Count; i++)
+        {
+            obstacles[i].Delete();
+            obstacles[i] = null;
+        }
+        
+        for (int i = 0; i < counters.Count; i++)
+        {          
+            counters[i].Delete();
+        }
+
+        obstacles.Clear();
+        counters.Clear();
+
     }
 }

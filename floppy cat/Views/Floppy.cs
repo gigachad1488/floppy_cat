@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Controls.Shapes;
@@ -11,9 +12,17 @@ namespace floppy_cat.Views;
 public class Floppy
 {
     private float g = 2f;
+    public Size size = new Size(40, 40);
+
+    private double currentPositionY;
     
 
     public Rectangle collider;
+
+    private Canvas canvas;
+    private ObstaclesSpawner spawner;
+
+    public string name;
 
 
     private float jumpForce = 10f;
@@ -24,10 +33,24 @@ public class Floppy
 
     private bool jumping;
     
-    public void Init(Rectangle collider)
+    public void Init(Canvas canvas, ObstaclesSpawner spawner)
     {
+        this.canvas = canvas;
+        this.spawner = spawner;
 
-        this.collider = collider;
+        Random r = new Random();
+        name = "flop " + r.Next(0, 1000);
+
+        collider = new Rectangle();
+        collider.Width = size.Width;
+        collider.Height = size.Height;
+        collider.RadiusX = size.Width / 2;
+        collider.RadiusY = size.Height / 2;
+        collider.Classes.Add("flop");
+        currentPositionY = 200;
+        Canvas.SetBottom(collider, currentPositionY);
+        Canvas.SetLeft(collider, 10);
+        canvas.Children.Add(collider);       
 
         UpdateHandler.updateEvent += Update;
         StaticData.floppy = this;
@@ -35,11 +58,11 @@ public class Floppy
     
     public void Update()
     {
-        Canvas.SetBottom(collider, Canvas.GetBottom(collider) - g);
+        currentPositionY -= g;     
 
         if (jumping)
         {
-            Canvas.SetBottom(collider, Canvas.GetBottom(collider) + currentJumpForce);
+            currentPositionY += currentJumpForce;
             currentJumpForce *= 0.90f;
             jumpTimer--;
             Random random = new Random();
@@ -63,24 +86,34 @@ public class Floppy
             if (jumpTimer <= 0)
             {
                 jumping = false;
-            }
+            }         
         }
 
-        if (Canvas.GetBottom(collider) < -10  || Canvas.GetBottom(collider) > 350 )
+        Canvas.SetBottom(collider, currentPositionY);
+
+        if (currentPositionY < -10|| currentPositionY > canvas.Bounds.Height + 10)
         {
             StaticData.floppy.collider.Fill = new SolidColorBrush(Colors.Red);
             UpdateHandler.updateEvent -= Update;
             UpdateHandler.timeScale = 0;
             UpdateHandler.end = true;
-            EndScreen es = new EndScreen(MainWindow.instance.Count);
+            EndScreen es = new EndScreen(MainWindow.instance.Count, spawner, this);
             es.Show();
+
+            Random r = new Random();
+            Debug.WriteLine("DED WTF" + Canvas.GetBottom(collider));
         }
     }
 
     public void Jump()
     {
         jumping = true;
-        jumpTimer = 60f;
+        jumpTimer = 40f;
         currentJumpForce = jumpForce;
+    }
+
+    public void Delete()
+    {
+        canvas.Children.Remove(collider);
     }
 }

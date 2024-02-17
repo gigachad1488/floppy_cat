@@ -20,6 +20,7 @@ public static class UpdateHandler
 
     public async static void Init()
     {
+        updateEvent = null;
         end = false;
         time = 0;
         timeScale = 1;
